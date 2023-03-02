@@ -1,0 +1,20 @@
+:root {
+	--cm-primary: #0d6efd;
+	--cm-secondary: #6c757d;
+	--cm-success: #198754;
+	--cm-info: #0dcaf0;
+	--cm-warning: #ffc107;
+	--cm-danger: #dc3545;
+	--cm-light: #f8f9fa;
+	--cm-dark: #212529;
+
+	--cm-body-color: #212529;
+	--cm-body-bg: #fff;
+
+	--cm-body-font-family: "Sofia Pro", sans-serif;
+	--cm-body-font-size: 1rem;
+	--cm-body-font-weight: 400;
+	--cm-body-line-height: 1.5;
+	--cm-heading-font-weight: 700;
+	--cm-heading-line-height: 1.2;
+}

@@ -1,0 +1,64 @@
+/* CONTAINER */
+
+$breakpoints: (
+	xs: $cm-breakpoint-xs,
+	sm: $cm-breakpoint-sm,
+	md: $cm-breakpoint-md,
+	lg: $cm-breakpoint-lg,
+	xl: $cm-breakpoint-xl,
+);
+
+@each $class, $value in $breakpoints {
+	.container-#{$class} {
+		max-width: #{$value};
+	}
+}
+
+.container {
+	width: 100%;
+}
+
+$grid-steps: 12;
+$grid-unit: "%";
+
+@each $key, $breakpoint in $breakpoints {
+	@media (min-width: $breakpoint) {
+		@for $i from 1 through $grid-steps {
+			.col-#{$key}-#{$i} {
+				flex: 0 0 auto;
+				width: #{calc($i / $grid-steps * 100)}#{$grid-unit};
+			}
+		}
+	}
+}
+
+$cm-gutter-x: 1.5rem;
+$cm-gutter-y: 0;
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: calc(-1 * $cm-gutter-y);
+	margin-right: calc(-0.5 * $cm-gutter-x);
+	margin-left: calc(-0.5 * $cm-gutter-x);
+}
+
+.row > * {
+	flex-shrink: 0;
+	width: 100%;
+	max-width: 100%;
+	padding-right: calc($cm-gutter-x * 0.5);
+	padding-left: calc($cm-gutter-x * 0.5);
+	margin-top: $cm-gutter-y;
+}
+
+.col {
+	flex: 1 0 0%;
+}
+
+@for $i from 1 through $grid-steps {
+	.col-#{$i} {
+		flex: 0 0 auto;
+		width: #{calc($i / $grid-steps * 100)}#{$grid-unit};
+	}
+}

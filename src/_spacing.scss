@@ -1,0 +1,122 @@
+/* SPACING */
+
+$spacing-property-map: (
+	"p": padding,
+	"pt": padding-top,
+	"pb": padding-bottom,
+	"pl": padding-left,
+	"pr": padding-right,
+	"px": (
+		padding-left,
+		padding-right,
+	),
+	"py": (
+		padding-top,
+		padding-bottom,
+	),
+	"m": margin,
+	"mt": margin-top,
+	"mb": margin-bottom,
+	"ml": margin-left,
+	"mr": margin-right,
+	"mx": (
+		margin-left,
+		margin-right,
+	),
+	"my": (
+		margin-top,
+		margin-bottom,
+	),
+);
+$spacing-sizes: 0, 4, 8, 12, 16, 20, 24, 28, 32, 40, 48, 56, 64, 72, 80, 88, 96,
+	104, 112, 120, 128, 144, 160, 176, 192, 208, 224, 240, 256;
+$spacing-unit: "px";
+
+@each $class, $value in $spacing-property-map {
+	@each $size in $spacing-sizes {
+		.#{$class}-#{$size} {
+			@each $subvalue in $value {
+				#{$subvalue}: #{$size}#{$spacing-unit};
+			}
+		}
+	}
+}
+
+$space-between-property-map: (
+	"space-x": margin-left,
+	"space-y": margin-top,
+);
+
+$space-between-sizes: 0, 4, 8, 12, 16, 20, 24, 28, 32, 40, 48, 56, 64, 72, 80,
+	88, 96, 104, 112, 120, 128, 144, 160, 176, 192, 208, 224, 240, 256;
+$space-between-unit: "px";
+
+@each $class, $value in $space-between-property-map {
+	@each $size in $space-between-sizes {
+		.#{$class}-#{$size} > * + * {
+			@each $subvalue in $value {
+				#{$subvalue}: #{$size}#{$space-between-unit};
+			}
+		}
+	}
+}
+
+.m-auto {
+	margin: auto;
+}
+
+.mt-auto {
+	margin-top: auto;
+}
+
+.mb-auto {
+	margin-bottom: auto;
+}
+
+.mr-auto {
+	margin-right: auto;
+}
+
+.ml-auto {
+	margin-left: auto;
+}
+
+.mx-auto {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.my-auto {
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+.p-auto {
+	padding: auto;
+}
+
+.pt-auto {
+	padding-top: auto;
+}
+
+.pb-auto {
+	padding-bottom: auto;
+}
+
+.pr-auto {
+	padding-right: auto;
+}
+
+.pl-auto {
+	padding-left: auto;
+}
+
+.px-auto {
+	padding-right: auto;
+	padding-left: auto;
+}
+
+.py-auto {
+	padding-top: auto;
+	padding-bottom: auto;
+}

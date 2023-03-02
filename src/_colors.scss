@@ -1,0 +1,27 @@
+/* COLOR */
+$color-map: (
+	"primary": $cm-primary,
+	"secondary": $cm-secondary,
+	"success": $cm-success,
+	"info": $cm-info,
+	"warning": $cm-warning,
+	"danger": $cm-danger,
+	"light": $cm-light,
+	"dark": $cm-dark,
+);
+
+@mixin color-utilities($property: "color") {
+	@each $name, $color in $color-map {
+		&-#{$name} {
+			#{$property}: #{$color};
+		}
+	}
+}
+
+.text {
+	@include color-utilities();
+}
+
+.bg {
+	@include color-utilities(background-color);
+}

@@ -1,0 +1,274 @@
+/* MISC */
+
+.ratio-auto {
+	aspect-ratio: auto;
+}
+
+.ratio-1x1 {
+	aspect-ratio: 1 / 1;
+}
+
+.ratio-4x3 {
+	aspect-ratio: 4 / 3;
+}
+
+.ratio-16x9 {
+	aspect-ratio: 16 / 9;
+}
+
+.ratio-21x9 {
+	aspect-ratio: 21 / 9;
+}
+
+.object-contain {
+	object-fit: contain;
+}
+
+.object-cover {
+	object-fit: cover;
+}
+
+.object-fill {
+	object-fit: fill;
+}
+
+.object-none {
+	object-fit: none;
+}
+
+.object-scale-down {
+	object-fit: scale-down;
+}
+
+.object-bottom {
+	object-position: bottom;
+}
+
+.object-center {
+	object-position: center;
+}
+
+.object-left {
+	object-position: left;
+}
+
+.object-left-bottom {
+	object-position: left bottom;
+}
+
+.object-left-top {
+	object-position: left top;
+}
+
+.object-right {
+	object-position: right;
+}
+
+.object-right-bottom {
+	object-position: right bottom;
+}
+
+.object-right-top {
+	object-position: right top;
+}
+
+.object-top {
+	object-position: top;
+}
+
+.overflow-auto {
+	overflow: auto;
+}
+
+.overflow-hidden {
+	overflow: hidden;
+}
+
+.overflow-clip {
+	overflow: clip;
+}
+
+.overflow-visible {
+	overflow: visible;
+}
+
+.overflow-scroll {
+	overflow: scroll;
+}
+
+.overflow-x-auto {
+	overflow-x: auto;
+}
+
+.overflow-y-auto {
+	overflow-y: auto;
+}
+
+.overflow-x-hidden {
+	overflow-x: hidden;
+}
+
+.overflow-y-hidden {
+	overflow-y: hidden;
+}
+
+.overflow-x-clip {
+	overflow-x: clip;
+}
+
+.overflow-y-clip {
+	overflow-y: clip;
+}
+
+.overflow-x-visible {
+	overflow-x: visible;
+}
+
+.overflow-y-visible {
+	overflow-y: visible;
+}
+
+.overflow-x-scroll {
+	overflow-x: scroll;
+}
+
+.overflow-y-scroll {
+	overflow-y: scroll;
+}
+
+.rounded-none {
+	border-radius: 0px;
+}
+
+.rounded-sm {
+	border-radius: 2px;
+}
+
+.rounded {
+	border-radius: 4px;
+}
+
+.rounded-md {
+	border-radius: 6px;
+}
+
+.rounded-lg {
+	border-radius: 8px;
+}
+
+.rounded-xl {
+	border-radius: 12px;
+}
+
+.rounded-2xl {
+	border-radius: 16px;
+}
+
+.rounded-3xl {
+	border-radius: 24px;
+}
+
+.rounded-full {
+	border-radius: 9999px;
+}
+
+.opacity-0 {
+	opacity: 0;
+}
+
+.opacity-5 {
+	opacity: 0.05;
+}
+
+.opacity-10 {
+	opacity: 0.1;
+}
+
+.opacity-20 {
+	opacity: 0.2;
+}
+
+.opacity-25 {
+	opacity: 0.25;
+}
+
+.opacity-30 {
+	opacity: 0.3;
+}
+
+.opacity-40 {
+	opacity: 0.4;
+}
+
+.opacity-50 {
+	opacity: 0.5;
+}
+
+.opacity-60 {
+	opacity: 0.6;
+}
+
+.opacity-70 {
+	opacity: 0.7;
+}
+
+.opacity-75 {
+	opacity: 0.75;
+}
+
+.opacity-80 {
+	opacity: 0.8;
+}
+
+.opacity-90 {
+	opacity: 0.9;
+}
+
+.opacity-95 {
+	opacity: 0.95;
+}
+
+.opacity-100 {
+	opacity: 1;
+}
+
+.appearance-none {
+	appearance: none;
+}
+
+.cursor-auto {
+	cursor: auto;
+}
+
+.cursor-default {
+	cursor: default;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.cursor-none {
+	cursor: none;
+}
+
+.cursor-grab {
+	cursor: grab;
+}
+
+.transition-none {
+	transition-property: none;
+}
+.transition-all {
+	transition-property: all;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 250ms;
+}
+
+.transition {
+	transition-property: color, background-color, border-color,
+		text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+		backdrop-filter;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 250ms;
+}
