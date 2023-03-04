@@ -1,4 +1,4 @@
-# SolidCore CSS Framework
+# Brisky CSS Framework
 
 ## License
 

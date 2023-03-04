@@ -1,10 +1,10 @@
 {
-	"name": "solidcore-css",
+	"name": "brisky-css",
 	"version": "1.0.0",
 	"description": "A utility-based CSS Framework created by crical.media",
 	"scripts": {
-		"dev": "sass --watch --style=expanded src/main.scss dist/solidcore-css_v1.0.0.scss",
-		"prod": "sass --no-source-map --style=compressed src/main.scss dist/solidcore.min.css && sass --no-source-map --style=expanded src/variables-min.css dist/solidcore-variables.css"
+		"dev": "sass --watch --style=expanded src/main.scss dist/brisky-css_v1.0.0.scss",
+		"prod": "sass --no-source-map --style=compressed src/main.scss dist/brisky-css.min.css && sass --no-source-map --style=expanded src/variables-min.css dist/brisky-css-variables.css"
 	},
 	"author": "crical.media",
 	"license": "MIT",
