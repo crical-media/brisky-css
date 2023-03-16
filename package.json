@@ -1,17 +1,17 @@
 {
 	"name": "brisky-css",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A lightweight and utility-based CSS Framework.",
 	"scripts": {
 		"dev": "sass --watch --style=expanded src/main.scss dist/brisky-css.scss",
 		"prod": "sass --no-source-map --style=compressed src/main.scss dist/brisky-css.min.css && sass --no-source-map --style=expanded src/variables-min.css dist/brisky-css-variables.css"
 	},
-	"homepage": "https://brisky.crical.media",
+	"homepage": "https://github.com/crical-media/brisky-css",
 	"keywords": [
 		"css",
 		"css framework",
 		"lightweight",
-		"modern",
+		"classes",
 		"utilities",
 		"sass"
 	],

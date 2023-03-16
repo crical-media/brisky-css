@@ -1,13 +1,18 @@
-<!-- <img width="300px" alt="" src="./src/readme.png"> -->
+<img width="300px" alt="" src="./brisky-logo.jpg">
 
 # Brisky CSS Framework
 
-## Install
-
-This repository is distributed with npm. You can install `brisky-css` with this command:
+## Usage with npm
 
 ```sh
 npm install brisky-css
+```
+
+## Usage with CDN
+
+```sh
+<link href="https://unpkg.com/brisky-css/dist/brisky-css-variables.css" rel="stylesheet" />
+<link href="https://unpkg.com/brisky-css/dist/brisky-css.min.css" rel="stylesheet" />
 ```
 
 ## Usage
@@ -19,17 +24,25 @@ Minified CSS:
 @import "brisky-css/dist/brisky-css.css";
 ```
 
-Full SCSS:
+Full SCSS Modules:
 
 ```scss
-@import "brisky-css/dist/brisky-css-variables.css";
-@import "brisky-css/dist/brisky-css.scss";
+@import "brisky-csss/dist/brisky-css-variables.css";
+@import "brisky-csss/src/main.scss";
 ```
 
 ## Documentation
 
-You can find our documentation at [brisky.crical.media](https://brisky.crical.media).
+coming soon
+
+### Normalize
+
+We are using normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css
 
 ## License
 
 [MIT](LICENSE)
+
+## Copyright
+
+Copyright 2023, crical.media

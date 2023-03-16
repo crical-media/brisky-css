@@ -578,24 +578,6 @@ iframe {
   display: none !important;
 }
 
-.list-unstyled {
-  padding-left: 0;
-  list-style: none;
-}
-
-.list-inline {
-  padding-left: 0;
-  list-style: none;
-}
-
-.list-inline-item {
-  display: inline-block;
-}
-
-.list-inline-item:not(:last-child) {
-  margin-right: 0.5rem;
-}
-
 /* SPACING */
 .p-0 {
   padding: 0px;
@@ -5090,6 +5072,24 @@ iframe {
 }
 
 /* MISC */
+.list-unstyled {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline {
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline-item {
+  display: inline-block;
+}
+
+.list-inline-item:not(:last-child) {
+  margin-right: 0.5rem;
+}
+
 .ratio-auto {
   aspect-ratio: auto;
 }
