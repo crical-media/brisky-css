@@ -1,6 +1,8 @@
-<img alt="Brisky CSS Logo" src="./brisky-logo.jpg">
+<img alt="Brisky CSS Logo" src="https://raw.githubusercontent.com/crical-media/brisky-css/main/brisky-logo.jpg">
 
 # Brisky CSS Framework
+
+Brisky is a simple, lightweight and fast CSS framework inspired by Tailwind CSS utility classes and Bootstrap.
 
 ## Usage with npm
 
