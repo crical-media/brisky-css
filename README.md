@@ -1,4 +1,4 @@
-<img width="300px" alt="" src="./brisky-logo.jpg">
+<img alt="Brisky CSS Logo" src="./brisky-logo.jpg">
 
 # Brisky CSS Framework
 
