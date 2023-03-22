@@ -13,14 +13,8 @@ npm install brisky-css
 ## Usage with CDN
 
 ```html
-<link
-	href="https://unpkg.com/brisky-css/dist/brisky-css-variables.css"
-	rel="stylesheet"
-/>
-<link
-	href="https://unpkg.com/brisky-css/dist/brisky-css.min.css"
-	rel="stylesheet"
-/>
+<link href="https://unpkg.com/brisky-css/dist/brisky-css-variables.css"	rel="stylesheet"/>
+<link href="https://unpkg.com/brisky-css/dist/brisky-css.min.css" rel="stylesheet"/>
 ```
 
 ## Import
