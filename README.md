@@ -68,7 +68,7 @@ We are using normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.c
 
 ## License
 
-[MIT](https://github.com/halfmoonui/halfmoon/blob/master/README.md)
+[MIT](https://github.com/crical-media/brisky-css/blob/main/README.md)
 
 ## Copyright
 
