@@ -29,10 +29,10 @@ Minified CSS:
 Full SCSS:
 
 ```css
-@import "brisky-csss/src/main.scss";
+@import "brisky-css/src/main.scss";
 ```
 
-## Variables
+## SCSS Variables
 
 ```scss
 $cm-primary: #0ff38f;
@@ -47,7 +47,7 @@ $cm-dark: #06111e;
 $cm-body-color: #06111e;
 $cm-body-bg: #ffffff;
 
-$cm-body-font-family: "Sofia Pro", sans-serif;
+$cm-body-font-family: "Roboto", sans-serif;
 $cm-body-font-size: 1rem;
 $cm-body-font-weight: 400;
 $cm-body-line-height: 1.5;
@@ -64,7 +64,7 @@ $cm-breakpoint-xl: 1600px;
 
 ## Normalize
 
-We are using normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css
+We are using normalize.css v8.0.1 | MIT License | [github.com/necolas/normalize.css](https://github.com/necolas/normalize.css)
 
 ## License
 
