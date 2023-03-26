@@ -1,6 +1,6 @@
 {
 	"name": "brisky-css",
-	"version": "1.1.0",
+	"version": "1.2.0",
 	"description": "A lightweight and utility-based CSS Framework.",
 	"scripts": {
 		"min": "sass --no-source-map --style=compressed src/main-min.scss dist/brisky-css.min.css && sass --no-source-map --style=expanded src/variables.css dist/brisky-css-variables.css"

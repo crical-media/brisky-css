@@ -1,0 +1,41 @@
+.animation-fade-up {
+	opacity: 0;
+	transform: translate3d(0, 50px, 0);
+	animation: fade-up 0.5s ease-in-out normal forwards;
+}
+
+.animation-fade-down {
+	opacity: 0;
+	transform: translate3d(0, -50px, 0);
+	animation: fade-down 0.5s ease-in-out normal forwards;
+}
+
+@keyframes fade-up {
+	0% {
+		opacity: 0;
+		transform: translate3d(0, 50px, 0);
+	}
+	100% {
+		opacity: 1;
+		transform: translateZ(0);
+	}
+}
+
+@keyframes fade-down {
+	0% {
+		opacity: 0;
+		transform: translate3d(0, -50px, 0);
+	}
+	100% {
+		opacity: 1;
+		transform: translateZ(0);
+	}
+}
+
+$delays: 0, 50, 100, 150, 200, 250, 300, 350, 400, 500, 600, 700, 800, 900, 1000;
+
+@each $value in $delays {
+	.animation-delay-#{$value} {
+		animation-delay: #{$value}ms;
+	}
+}
